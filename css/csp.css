@@ -1,3 +1,5 @@
-.title {
-  margin: 0 auto
+#title {
+  color: yellow;
+  margin: 0 auto;
+  font-size: 40px
 }
