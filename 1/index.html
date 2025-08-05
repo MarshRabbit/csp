@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<head> 
+    <meta charset="utf-8">
+    <title>Today's Weather!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class = "container">
+        <h1>Today's Weather</h1>
+        <div class = "search-box">
+            <input type="text" id = "city-input" placeholder="Enter city name">
+            <button id = "search-btn">검색</button>
+        </div>
+        <div id="weather-info" class = "weather-info hidden">
+            <h2 id = "city-name"></h2>
+            <p id = "country"></p>
+            <img id = "weather-icon" src="" alt="Weather icon">
+            <p><span id="temperature"></span>°C</p>
+            <p id="weather-description"></p>
+        </div>
+        <p id = "error-message" class = "error-message hidden">해당 도시를 찾을 수 없습니다</p>
+        <div class = "recent-searches">
+            <h3>최근 검색</h3>
+            <div id = "recent-list"></div>
+        </div>
+    </div>
+</body>
+</html>
